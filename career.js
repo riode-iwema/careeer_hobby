@@ -14,7 +14,7 @@ function suggestCareerBasedOnHobby(hobby) {
     return `Based on your hobby, you might enjoy a career in ${career}.`;
   }
   
-//   // Example usage:
-  const studentHobby = 'building'; // Replace with the student's actual hobby
+//select hobby
+  const studentHobby = 'building'; //add student's hobbyy
   const careerSuggestion = suggestCareerBasedOnHobby(studentHobby);
   console.log(careerSuggestion);
